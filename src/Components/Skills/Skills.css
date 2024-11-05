@@ -1,0 +1,138 @@
+
+
+
+
+.skill-container {
+  grid-template-columns: repeat(2, 450px);
+  column-gap: 3rem;
+  justify-content: center;
+}
+
+.skill-content {
+  background-color: var(--container-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 2rem 2rem;
+  border-radius: 1.25rem;
+}
+
+.skill-title {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  text-align: center;
+  margin-bottom: var(--mb-1-5);
+}
+
+.skill-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 4rem;
+  flex-wrap: wrap;
+}
+
+.skill-group {
+  display: grid;
+  margin-bottom: var(--mb-0-5);
+}
+
+.skill-data {
+  display: flex;
+  column-gap: 0.5rem;
+}
+
+.skill-icon,
+.badge {
+  font-size: 1rem;
+  color: var(--title-color);
+  margin-top: 2px;
+}
+
+.skill-name {
+  font-size: var(--small-font-size);
+  font-weight: var(--font-medium);
+}
+
+.skill-level {
+  font-size: var(--tiny-font-size);
+}
+
+.skill-icon {
+  margin-left: 2rem;
+}
+
+.java {
+  color: #f44336;
+}
+
+.javascript {
+  color: rgb(205, 166, 50);
+}
+
+.html5 {
+  color: rgb(255, 157, 0);
+}
+.react,
+.database,
+.tailwind {
+  color: skyblue;
+}
+
+.sass {
+  color: pink;
+}
+
+.python {
+  color: rgb(205, 151, 50);
+}
+
+.css3 {
+  color: rgba(26, 26, 225, 0.801);
+}
+
+.spring,
+.badge {
+  color: green;
+}
+
+/* Breakpoints */
+
+/* For Large Devices */
+@media screen and (max-width: 992px) {
+  .skill-container {
+    grid-template-columns: max-content;
+    row-gap: 2rem;
+  }
+}
+
+/* For Medium Devices */
+
+@media screen and (max-width: 575px) {
+  .skill-container {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-name {
+    font-size: calc(var(--small-font-size) - 00.25rem);
+  }
+
+  .badge {
+    margin-left: 2rem;
+  }
+  .skill-content {
+    padding: 0.5rem;
+  }
+
+  .skill-box {
+    column-gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .skill-name {
+    font-size: var(--tiny-font-size);
+  }
+
+  .skill-icon,
+  .badge {
+    margin: 0.5rem;
+  }
+}
