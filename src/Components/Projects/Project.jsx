@@ -27,10 +27,11 @@ const Project = () => {
               </p>
 
               <div className=" project-button-container">
-                <a href="" className=" project-button ">
-                  Live Code
-                </a>
-                <a href="" className=" project-button">
+                <a
+                  href="https://github.com/khongconlaudau/BankingApp"
+                  target="_blank"
+                  className=" project-button"
+                >
                   Source Code
                 </a>
               </div>
@@ -51,15 +52,24 @@ const Project = () => {
                 components, allowing me to reuse code flexibly and efficiently.
               </p>
               <div className=" project-button-container">
-                <a href="" className=" project-button ">
+                <a
+                  href="https://khongconlaudau.github.io/E-Commerce-Project/"
+                  className=" project-button "
+                  target="_blank"
+                >
                   Live Code
                 </a>
-                <a href="" className=" project-button">
+                <a
+                  href="https://github.com/khongconlaudau/E-Commerce-Project"
+                  className=" project-button"
+                  target="_blank"
+                >
                   Source Code
                 </a>
               </div>
             </div>
           </div>
+
           <div className="card-box">
             <div className="project-img-container">
               <div className="projects-img project3"></div>
@@ -76,10 +86,18 @@ const Project = () => {
                 projects with Tailwind in the future.
               </p>
               <div className=" project-button-container">
-                <a href="" className=" project-button ">
+                <a
+                  href="https://khongconlaudau.github.io/clothes-page/"
+                  className=" project-button "
+                  target="_blank"
+                >
                   Live Code
                 </a>
-                <a href="" className=" project-button">
+                <a
+                  href="https://github.com/khongconlaudau/clothes-page"
+                  className=" project-button"
+                  target="_blank"
+                >
                   Source Code
                 </a>
               </div>
@@ -102,10 +120,18 @@ const Project = () => {
                 development experience
               </p>
               <div className=" project-button-container">
-                <a href="" className=" project-button ">
+                <a
+                  href="https://khongconlaudau.github.io/photography-page/"
+                  className=" project-button "
+                  target="_blank"
+                >
                   Live Code
                 </a>
-                <a href="" className=" project-button">
+                <a
+                  href="https://github.com/khongconlaudau/photography-page"
+                  className=" project-button"
+                  target="_blank"
+                >
                   Source Code
                 </a>
               </div>

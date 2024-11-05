@@ -37,10 +37,11 @@
   background: url("../../assets/Bank.png") no-repeat center center/cover;
 }
 .project2 {
-  background: url("../../assets/Clothes.png") no-repeat center center/cover;
-}
-.project3 {
   background: url("../../assets/Sneakers.png") no-repeat center center/cover;
+}
+
+.project3 {
+  background: url("../../assets/Clothes.png") no-repeat center center/cover;
 }
 .project4 {
   background: url("../../assets/Photography.png") no-repeat center center/cover;
